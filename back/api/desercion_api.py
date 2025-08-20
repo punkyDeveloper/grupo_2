@@ -20,14 +20,20 @@ CORS(app)  # Permitir requests desde cualquier origen
 # CONFIGURACIÓN CON .ENV (OPTIMIZADA PARA RENDER)
 # =============================================================================
 
-# Leer configuración del .env
-ENTORNO = os.getenv('ENTORNO', 'local')  # 'local' o 'servidor'
+# 🔧 DETECCIÓN AUTOMÁTICA DE ENTORNO
+# Si existe PORT en las variables de entorno = Render.com
+if os.getenv('PORT'):
+    ENTORNO = 'servidor'
+    PUERTO = int(os.getenv('PORT'))
+    DEBUG = False
+    print("🚀 RENDER.COM detectado automáticamente")
+else:
+    # Configuración local con .env
+    ENTORNO = os.getenv('ENTORNO', 'local')
+    PUERTO = int(os.getenv('PUERTO', 5000))
+    DEBUG = os.getenv('DEBUG', 'true').lower() == 'true'
+
 RUTA_DATOS = os.getenv('RUTA_DATOS', '')
-
-# 🔧 PUERTO: Render.com usa PORT automáticamente
-PUERTO = int(os.getenv('PORT', os.getenv('PUERTO', 5000)))
-
-DEBUG = os.getenv('DEBUG', 'true').lower() == 'true'
 
 print(f"🔧 Entorno: {ENTORNO.upper()}")
 print(f"🚪 Puerto: {PUERTO}")
@@ -279,15 +285,29 @@ def udea_filtrado():
     })
 
 # =============================================================================
-# CONFIGURACIÓN AUTOMÁTICA HOST
+# CONFIGURACIÓN AUTOMÁTICA HOST Y PUERTO
 # =============================================================================
 
-def obtener_host():
-    """Detectar host automáticamente"""
-    if ENTORNO == 'servidor':
-        return '0.0.0.0'  # Servidor: escuchar en todas las interfaces
+def obtener_configuracion():
+    """Detectar configuración automáticamente para Render.com"""
+    
+    # 🚀 RENDER.COM: Si existe PORT = estamos en Render
+    if os.getenv('PORT'):
+        return {
+            'host': '0.0.0.0',  # OBLIGATORIO para Render.com
+            'port': int(os.getenv('PORT')),
+            'debug': False,
+            'entorno': 'RENDER.COM'
+        }
+    
+    # 💻 LOCAL: Desarrollo local
     else:
-        return 'localhost'  # Local: solo local
+        return {
+            'host': 'localhost',
+            'port': PUERTO,
+            'debug': DEBUG,
+            'entorno': 'LOCAL'
+        }
 
 # =============================================================================
 # EJECUTAR LA API
@@ -295,18 +315,21 @@ def obtener_host():
 
 if __name__ == '__main__':
     
-    host = obtener_host()
+    # 🔧 Configuración automática
+    config = obtener_configuracion()
     
     print(f"\n🚀 Iniciando API de Deserción")
-    print(f"🌍 Entorno: {ENTORNO.upper()}")
-    print(f"🌐 URL: http://{host}:{PUERTO}")
+    print(f"🌍 Entorno: {config['entorno']}")
+    print(f"🌐 Host: {config['host']}")
+    print(f"🚪 Puerto: {config['port']}")
+    print(f"🐛 Debug: {config['debug']}")
     print(f"📁 Buscando datos en: {list(ARCHIVOS.values())[0].parent}")
     
     print(f"\n📊 Endpoints principales:")
-    print(f"   http://{host}:{PUERTO}/ - Información general")
-    print(f"   http://{host}:{PUERTO}/udea - Datos UdeA completos")
-    print(f"   http://{host}:{PUERTO}/udea/stats - Estadísticas resumen")
-    print(f"   http://{host}:{PUERTO}/udea/filtro?año=2020 - Filtros")
+    print(f"   http://{config['host']}:{config['port']}/ - Información general")
+    print(f"   http://{config['host']}:{config['port']}/udea - Datos UdeA completos")
+    print(f"   http://{config['host']}:{config['port']}/udea/stats - Estadísticas resumen")
+    print(f"   http://{config['host']}:{config['port']}/udea/filtro?año=2020 - Filtros")
     
     # Verificar archivos al inicio
     print(f"\n📋 Verificando archivos CSV...")
@@ -325,5 +348,11 @@ if __name__ == '__main__':
         print(f"\n✅ {archivos_encontrados}/{len(ARCHIVOS)} archivos encontrados")
     
     print(f"\n🎯 ¡API lista para usar!")
+    print(f"\n🔥 INICIANDO SERVIDOR...")
     
-    app.run(debug=DEBUG, host=host, port=PUERTO)
+    # 🚀 EJECUTAR CON CONFIGURACIÓN AUTOMÁTICA
+    app.run(
+        debug=config['debug'], 
+        host=config['host'], 
+        port=config['port']
+    )
