@@ -1,0 +1,42 @@
+año,metodologia,tasa_desercion,porcentaje,nivel_formacion,tipo_analisis,categoria
+2010,Presencial,0.08741223021034254,8.74,Universitario,metodologia,Presencial
+2011,Presencial,0.08698936521045496,8.7,Universitario,metodologia,Presencial
+2012,Presencial,0.07904280019863372,7.9,Universitario,metodologia,Presencial
+2013,Presencial,0.07982196071662462,7.98,Universitario,metodologia,Presencial
+2014,Presencial,0.07595161086380305,7.6,Universitario,metodologia,Presencial
+2015,Presencial,0.08068284774212008,8.07,Universitario,metodologia,Presencial
+2016,Presencial,0.0708101243751569,7.08,Universitario,metodologia,Presencial
+2017,Presencial,0.08124289906642364,8.12,Universitario,metodologia,Presencial
+2018,Presencial,0.0790636587943683,7.91,Universitario,metodologia,Presencial
+2019,Presencial,0.07148010049945687,7.15,Universitario,metodologia,Presencial
+2020,Presencial,0.06973897782287491,6.97,Universitario,metodologia,Presencial
+2021,Presencial,0.08031226898143858,8.03,Universitario,metodologia,Presencial
+2022,Presencial,0.07181215544418768,7.18,Universitario,metodologia,Presencial
+2010,Distancia tradicional,0.17248599951302654,17.25,Universitario,metodologia,Distancia tradicional
+2011,Distancia tradicional,0.14244423183443275,14.24,Universitario,metodologia,Distancia tradicional
+2012,Distancia tradicional,0.14785484292054651,14.79,Universitario,metodologia,Distancia tradicional
+2013,Distancia tradicional,0.1401888894552498,14.02,Universitario,metodologia,Distancia tradicional
+2014,Distancia tradicional,0.1290770960378837,12.91,Universitario,metodologia,Distancia tradicional
+2015,Distancia tradicional,0.12939571321684784,12.94,Universitario,metodologia,Distancia tradicional
+2016,Distancia tradicional,0.1253405192956031,12.53,Universitario,metodologia,Distancia tradicional
+2017,Distancia tradicional,0.12181084286227194,12.18,Universitario,metodologia,Distancia tradicional
+2018,Distancia tradicional,0.10987165898859308,10.99,Universitario,metodologia,Distancia tradicional
+2019,Distancia tradicional,0.10931354513750344,10.93,Universitario,metodologia,Distancia tradicional
+2020,Distancia tradicional,0.09871097139122695,9.87,Universitario,metodologia,Distancia tradicional
+2021,Distancia tradicional,0.0967283921156875,9.67,Universitario,metodologia,Distancia tradicional
+2022,Distancia tradicional,0.10081162464520503,10.08,Universitario,metodologia,Distancia tradicional
+2010,Distancia virtual,0.252204955900882,25.22,Universitario,metodologia,Distancia virtual
+2011,Distancia virtual,0.21503311894019392,21.5,Universitario,metodologia,Distancia virtual
+2012,Distancia virtual,0.19696024941543258,19.7,Universitario,metodologia,Distancia virtual
+2013,Distancia virtual,0.19272976680384088,19.27,Universitario,metodologia,Distancia virtual
+2014,Distancia virtual,0.17947824572100518,17.95,Universitario,metodologia,Distancia virtual
+2015,Distancia virtual,0.18340189590413164,18.34,Universitario,metodologia,Distancia virtual
+2016,Distancia virtual,0.16805219114732436,16.81,Universitario,metodologia,Distancia virtual
+2017,Distancia virtual,0.18404599754382048,18.4,Universitario,metodologia,Distancia virtual
+2018,Distancia virtual,0.16710622044379775,16.71,Universitario,metodologia,Distancia virtual
+2019,Distancia virtual,0.17132972126117893,17.13,Universitario,metodologia,Distancia virtual
+2020,Distancia virtual,0.16699153316683926,16.7,Universitario,metodologia,Distancia virtual
+2021,Distancia virtual,0.16194900991871666,16.19,Universitario,metodologia,Distancia virtual
+2022,Distancia virtual,0.12347750669331423,12.35,Universitario,metodologia,Distancia virtual
+2021,Dual,0.1327334083239595,13.27,Universitario,metodologia,Dual
+2022,Dual,0.09600191525017955,9.6,Universitario,metodologia,Dual

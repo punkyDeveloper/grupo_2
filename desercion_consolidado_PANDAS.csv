@@ -1,0 +1,172 @@
+año,categoria,tasa_desercion,porcentaje,nivel_formacion,tipo_analisis
+2010,Hombre,0.10563405303613516,10.56,Universitario,sexo
+2010,Mujer,0.09393048555608258,9.39,Universitario,sexo
+2011,Hombre,0.1015278036506381,10.15,Universitario,sexo
+2011,Mujer,0.09019478891926758,9.02,Universitario,sexo
+2012,Hombre,0.09643262860532216,9.64,Universitario,sexo
+2012,Mujer,0.08415160888551193,8.42,Universitario,sexo
+2013,Hombre,0.09638088907197963,9.64,Universitario,sexo
+2013,Mujer,0.08550815545929988,8.55,Universitario,sexo
+2014,Hombre,0.09342998679427128,9.34,Universitario,sexo
+2014,Mujer,0.07925577142857143,7.93,Universitario,sexo
+2015,Hombre,0.09724218147921773,9.72,Universitario,sexo
+2015,Mujer,0.08456627062628082,8.46,Universitario,sexo
+2016,Hombre,0.08874266233791361,8.87,Universitario,sexo
+2016,Mujer,0.07584105399245794,7.58,Universitario,sexo
+2017,Hombre,0.09919247132079143,9.92,Universitario,sexo
+2017,Mujer,0.08454931373800817,8.45,Universitario,sexo
+2018,Hombre,0.09616430205480155,9.62,Universitario,sexo
+2018,Mujer,0.08075630565488894,8.08,Universitario,sexo
+2019,Hombre,0.09002554823996396,9.0,Universitario,sexo
+2019,Mujer,0.07594216251759378,7.59,Universitario,sexo
+2020,Hombre,0.08872900914733695,8.87,Universitario,sexo
+2020,Mujer,0.07300651185649343,7.3,Universitario,sexo
+2021,Hombre,0.09963308204621357,9.96,Universitario,sexo
+2021,Mujer,0.0800935996308747,8.01,Universitario,sexo
+2022,Hombre,0.08974020689348228,8.97,Universitario,sexo
+2022,Mujer,0.07353352901332129,7.35,Universitario,sexo
+2010,Presencial,0.08741223021034254,8.74,Universitario,metodologia
+2011,Presencial,0.08698936521045496,8.7,Universitario,metodologia
+2012,Presencial,0.07904280019863372,7.9,Universitario,metodologia
+2013,Presencial,0.07982196071662462,7.98,Universitario,metodologia
+2014,Presencial,0.07595161086380305,7.6,Universitario,metodologia
+2015,Presencial,0.08068284774212008,8.07,Universitario,metodologia
+2016,Presencial,0.0708101243751569,7.08,Universitario,metodologia
+2017,Presencial,0.08124289906642364,8.12,Universitario,metodologia
+2018,Presencial,0.0790636587943683,7.91,Universitario,metodologia
+2019,Presencial,0.07148010049945687,7.15,Universitario,metodologia
+2020,Presencial,0.06973897782287491,6.97,Universitario,metodologia
+2021,Presencial,0.08031226898143858,8.03,Universitario,metodologia
+2022,Presencial,0.07181215544418768,7.18,Universitario,metodologia
+2010,Distancia tradicional,0.17248599951302654,17.25,Universitario,metodologia
+2011,Distancia tradicional,0.14244423183443275,14.24,Universitario,metodologia
+2012,Distancia tradicional,0.14785484292054651,14.79,Universitario,metodologia
+2013,Distancia tradicional,0.1401888894552498,14.02,Universitario,metodologia
+2014,Distancia tradicional,0.1290770960378837,12.91,Universitario,metodologia
+2015,Distancia tradicional,0.12939571321684784,12.94,Universitario,metodologia
+2016,Distancia tradicional,0.1253405192956031,12.53,Universitario,metodologia
+2017,Distancia tradicional,0.12181084286227194,12.18,Universitario,metodologia
+2018,Distancia tradicional,0.10987165898859308,10.99,Universitario,metodologia
+2019,Distancia tradicional,0.10931354513750344,10.93,Universitario,metodologia
+2020,Distancia tradicional,0.09871097139122695,9.87,Universitario,metodologia
+2021,Distancia tradicional,0.0967283921156875,9.67,Universitario,metodologia
+2022,Distancia tradicional,0.10081162464520503,10.08,Universitario,metodologia
+2010,Distancia virtual,0.252204955900882,25.22,Universitario,metodologia
+2011,Distancia virtual,0.21503311894019392,21.5,Universitario,metodologia
+2012,Distancia virtual,0.19696024941543258,19.7,Universitario,metodologia
+2013,Distancia virtual,0.19272976680384088,19.27,Universitario,metodologia
+2014,Distancia virtual,0.17947824572100518,17.95,Universitario,metodologia
+2015,Distancia virtual,0.18340189590413164,18.34,Universitario,metodologia
+2016,Distancia virtual,0.16805219114732436,16.81,Universitario,metodologia
+2017,Distancia virtual,0.18404599754382048,18.4,Universitario,metodologia
+2018,Distancia virtual,0.16710622044379775,16.71,Universitario,metodologia
+2019,Distancia virtual,0.17132972126117893,17.13,Universitario,metodologia
+2020,Distancia virtual,0.16699153316683926,16.7,Universitario,metodologia
+2021,Distancia virtual,0.16194900991871666,16.19,Universitario,metodologia
+2022,Distancia virtual,0.12347750669331423,12.35,Universitario,metodologia
+2021,Dual,0.1327334083239595,13.27,Universitario,metodologia
+2022,Dual,0.09600191525017955,9.6,Universitario,metodologia
+2010,Agronomía veterinaria y afines,0.12137828323855944,12.14,Universitario,area_conocimiento
+2011,Agronomía veterinaria y afines,0.11004126547455295,11.0,Universitario,area_conocimiento
+2012,Agronomía veterinaria y afines,0.10685316471865619,10.69,Universitario,area_conocimiento
+2013,Agronomía veterinaria y afines,0.12004927625500462,12.0,Universitario,area_conocimiento
+2014,Agronomía veterinaria y afines,0.10229891850363454,10.23,Universitario,area_conocimiento
+2015,Agronomía veterinaria y afines,0.10516220028208745,10.52,Universitario,area_conocimiento
+2016,Agronomía veterinaria y afines,0.09386700416600749,9.39,Universitario,area_conocimiento
+2017,Agronomía veterinaria y afines,0.1145813556104044,11.46,Universitario,area_conocimiento
+2018,Agronomía veterinaria y afines,0.09739858906525573,9.74,Universitario,area_conocimiento
+2019,Agronomía veterinaria y afines,0.08973447627012335,8.97,Universitario,area_conocimiento
+2020,Agronomía veterinaria y afines,0.08657772937653145,8.66,Universitario,area_conocimiento
+2021,Agronomía veterinaria y afines,0.09212632236405512,9.21,Universitario,area_conocimiento
+2022,Agronomía veterinaria y afines,0.07695997807017543,7.7,Universitario,area_conocimiento
+2010,Bellas artes,0.0824610374505699,8.25,Universitario,area_conocimiento
+2011,Bellas artes,0.08284128274935473,8.28,Universitario,area_conocimiento
+2012,Bellas artes,0.07575708078795204,7.58,Universitario,area_conocimiento
+2013,Bellas artes,0.07649622221525536,7.65,Universitario,area_conocimiento
+2014,Bellas artes,0.07968786947268858,7.97,Universitario,area_conocimiento
+2015,Bellas artes,0.08551972761866614,8.55,Universitario,area_conocimiento
+2016,Bellas artes,0.07496837666900913,7.5,Universitario,area_conocimiento
+2017,Bellas artes,0.08498975546153642,8.5,Universitario,area_conocimiento
+2018,Bellas artes,0.08523739649931873,8.52,Universitario,area_conocimiento
+2019,Bellas artes,0.07977156442193395,7.98,Universitario,area_conocimiento
+2020,Bellas artes,0.08194933320113033,8.19,Universitario,area_conocimiento
+2021,Bellas artes,0.10354724757138652,10.35,Universitario,area_conocimiento
+2022,Bellas artes,0.09136638224854852,9.14,Universitario,area_conocimiento
+2010,Ciencias de la educación,0.10664710776371678,10.66,Universitario,area_conocimiento
+2011,Ciencias de la educación,0.09866565080411012,9.87,Universitario,area_conocimiento
+2012,Ciencias de la educación,0.09089158667963147,9.09,Universitario,area_conocimiento
+2013,Ciencias de la educación,0.09592771838139227,9.59,Universitario,area_conocimiento
+2014,Ciencias de la educación,0.08528290538568357,8.53,Universitario,area_conocimiento
+2015,Ciencias de la educación,0.09180327868852459,9.18,Universitario,area_conocimiento
+2016,Ciencias de la educación,0.08850365657841668,8.85,Universitario,area_conocimiento
+2017,Ciencias de la educación,0.10010191616853031,10.01,Universitario,area_conocimiento
+2018,Ciencias de la educación,0.10143610383802537,10.14,Universitario,area_conocimiento
+2019,Ciencias de la educación,0.09123705600712616,9.12,Universitario,area_conocimiento
+2020,Ciencias de la educación,0.085719875938433,8.57,Universitario,area_conocimiento
+2021,Ciencias de la educación,0.09208833377224333,9.21,Universitario,area_conocimiento
+2022,Ciencias de la educación,0.08514881753928798,8.51,Universitario,area_conocimiento
+2010,Ciencias de la salud,0.07696649826423188,7.7,Universitario,area_conocimiento
+2011,Ciencias de la salud,0.08343496848240535,8.34,Universitario,area_conocimiento
+2012,Ciencias de la salud,0.07213130782298376,7.21,Universitario,area_conocimiento
+2013,Ciencias de la salud,0.07265618729863906,7.27,Universitario,area_conocimiento
+2014,Ciencias de la salud,0.050491216950380294,5.05,Universitario,area_conocimiento
+2015,Ciencias de la salud,0.05138086062941554,5.14,Universitario,area_conocimiento
+2016,Ciencias de la salud,0.043096217189386034,4.31,Universitario,area_conocimiento
+2017,Ciencias de la salud,0.05311315286896539,5.31,Universitario,area_conocimiento
+2018,Ciencias de la salud,0.04787044888803786,4.79,Universitario,area_conocimiento
+2019,Ciencias de la salud,0.044631836974253186,4.46,Universitario,area_conocimiento
+2020,Ciencias de la salud,0.041403256704980844,4.14,Universitario,area_conocimiento
+2021,Ciencias de la salud,0.04622748648998849,4.62,Universitario,area_conocimiento
+2022,Ciencias de la salud,0.034346976758494456,3.43,Universitario,area_conocimiento
+2010,Ciencias sociales y humanas,0.09888004811935693,9.89,Universitario,area_conocimiento
+2011,Ciencias sociales y humanas,0.10237049406468944,10.24,Universitario,area_conocimiento
+2012,Ciencias sociales y humanas,0.09195730187075316,9.2,Universitario,area_conocimiento
+2013,Ciencias sociales y humanas,0.0914259357152482,9.14,Universitario,area_conocimiento
+2014,Ciencias sociales y humanas,0.09013152735039975,9.01,Universitario,area_conocimiento
+2015,Ciencias sociales y humanas,0.09579498843904051,9.58,Universitario,area_conocimiento
+2016,Ciencias sociales y humanas,0.08718399144581074,8.72,Universitario,area_conocimiento
+2017,Ciencias sociales y humanas,0.09429897927832588,9.43,Universitario,area_conocimiento
+2018,Ciencias sociales y humanas,0.0895375628752231,8.95,Universitario,area_conocimiento
+2019,Ciencias sociales y humanas,0.083741110358711,8.37,Universitario,area_conocimiento
+2020,Ciencias sociales y humanas,0.08077989650933418,8.08,Universitario,area_conocimiento
+2021,Ciencias sociales y humanas,0.09336666094095208,9.34,Universitario,area_conocimiento
+2022,Ciencias sociales y humanas,0.08463092868585853,8.46,Universitario,area_conocimiento
+2010,"Economía, administración, contaduría y afines",0.10866661782689306,10.87,Universitario,area_conocimiento
+2011,"Economía, administración, contaduría y afines",0.09830674063290466,9.83,Universitario,area_conocimiento
+2012,"Economía, administración, contaduría y afines",0.10182973524907009,10.18,Universitario,area_conocimiento
+2013,"Economía, administración, contaduría y afines",0.10276457005940365,10.28,Universitario,area_conocimiento
+2014,"Economía, administración, contaduría y afines",0.10154390863825176,10.15,Universitario,area_conocimiento
+2015,"Economía, administración, contaduría y afines",0.10700968337480571,10.7,Universitario,area_conocimiento
+2016,"Economía, administración, contaduría y afines",0.09679765576373008,9.68,Universitario,area_conocimiento
+2017,"Economía, administración, contaduría y afines",0.10286887307295728,10.29,Universitario,area_conocimiento
+2018,"Economía, administración, contaduría y afines",0.09980961275953733,9.98,Universitario,area_conocimiento
+2019,"Economía, administración, contaduría y afines",0.09867630407649694,9.87,Universitario,area_conocimiento
+2020,"Economía, administración, contaduría y afines",0.09661015984010296,9.66,Universitario,area_conocimiento
+2021,"Economía, administración, contaduría y afines",0.10953243027519752,10.95,Universitario,area_conocimiento
+2022,"Economía, administración, contaduría y afines",0.10221258209570838,10.22,Universitario,area_conocimiento
+2010,"Ingeniería, arquitectura, urbanismo y afines",0.0965610906109061,9.66,Universitario,area_conocimiento
+2011,"Ingeniería, arquitectura, urbanismo y afines",0.09147865466076285,9.15,Universitario,area_conocimiento
+2012,"Ingeniería, arquitectura, urbanismo y afines",0.08460375652204752,8.46,Universitario,area_conocimiento
+2013,"Ingeniería, arquitectura, urbanismo y afines",0.08358033967155726,8.36,Universitario,area_conocimiento
+2014,"Ingeniería, arquitectura, urbanismo y afines",0.08067850677108333,8.07,Universitario,area_conocimiento
+2015,"Ingeniería, arquitectura, urbanismo y afines",0.08363463200409178,8.36,Universitario,area_conocimiento
+2016,"Ingeniería, arquitectura, urbanismo y afines",0.07440499880601767,7.44,Universitario,area_conocimiento
+2017,"Ingeniería, arquitectura, urbanismo y afines",0.08577482370792189,8.58,Universitario,area_conocimiento
+2018,"Ingeniería, arquitectura, urbanismo y afines",0.08279581356504434,8.28,Universitario,area_conocimiento
+2019,"Ingeniería, arquitectura, urbanismo y afines",0.07624022420142913,7.62,Universitario,area_conocimiento
+2020,"Ingeniería, arquitectura, urbanismo y afines",0.07554714464455192,7.55,Universitario,area_conocimiento
+2021,"Ingeniería, arquitectura, urbanismo y afines",0.07993046408057564,7.99,Universitario,area_conocimiento
+2022,"Ingeniería, arquitectura, urbanismo y afines",0.07237108044118497,7.24,Universitario,area_conocimiento
+2010,Matemáticas y ciencias naturales,0.07989999479139538,7.99,Universitario,area_conocimiento
+2011,Matemáticas y ciencias naturales,0.08354367730759713,8.35,Universitario,area_conocimiento
+2012,Matemáticas y ciencias naturales,0.07434331685567509,7.43,Universitario,area_conocimiento
+2013,Matemáticas y ciencias naturales,0.07574601750056091,7.57,Universitario,area_conocimiento
+2014,Matemáticas y ciencias naturales,0.06889406889406889,6.89,Universitario,area_conocimiento
+2015,Matemáticas y ciencias naturales,0.06968295904887714,6.97,Universitario,area_conocimiento
+2016,Matemáticas y ciencias naturales,0.06274975272007913,6.27,Universitario,area_conocimiento
+2017,Matemáticas y ciencias naturales,0.09163923157628161,9.16,Universitario,area_conocimiento
+2018,Matemáticas y ciencias naturales,0.07658185173356045,7.66,Universitario,area_conocimiento
+2019,Matemáticas y ciencias naturales,0.05870714651202456,5.87,Universitario,area_conocimiento
+2020,Matemáticas y ciencias naturales,0.06361029732593655,6.36,Universitario,area_conocimiento
+2021,Matemáticas y ciencias naturales,0.05548909542652066,5.55,Universitario,area_conocimiento
+2022,Matemáticas y ciencias naturales,0.060883472122649315,6.09,Universitario,area_conocimiento
