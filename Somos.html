@@ -1,0 +1,46 @@
+ <body>
+        <header style="background-color: #F7F9FC;"> 
+</body>
+
+<style>
+    h3 {
+        color:  #1F2937;
+    }
+    .otro {
+        display: block;
+        margin-top: 10px; /* Añade espacio vertical al <br> */
+        color: rgb(79, 79, 224); /* No tendrá efecto visible en <br> */
+    }
+</style>
+
+{% extends "Base.html" %}
+{% block content %}
+   
+
+    <h2 style="color: #4A90E2" {margin-bottom: 30 px; }>Nosotros somos los integrantes del equipo:
+    
+  </h2>
+
+    <h3>Manuela Ramirez Ossa</h3>
+    <p>Soy administradora de empresas y <br> 
+        <span class="otro">me gusta leer</span> </p>
+
+    <h3>Michael Rendón Restrepo</h3>
+    <p> Soy tecnólogo en gestión financiera y <br > 
+        <span class="otro">me gusta el crossfit</span> </p>
+
+    <h3>Santiago Hernandez</h3>
+    <p>Soy programador de software y <br > 
+        <span class="otro">me gusta patinar</span></p>
+
+    <h3>Laura Castañeda Gaviria</h3>  
+    <p>Soy nutricionista y dietista y <br > 
+        <span class="otro">me gusta comer</span></p>
+
+    <h4>¡Es un placer tenerte aquí!</h4>
+
+    <nav>
+        <!-- Puedes añadir enlaces de navegación aquí -->
+    </nav>
+
+{% endblock %}

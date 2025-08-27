@@ -1,0 +1,49 @@
+<body>
+    <header style="background-color: #EAF0F6;"> 
+</body>
+
+<style>
+    .dpto { color:blue  }
+
+</style>
+
+
+
+{% extends "Base.html" %}
+ {% block content %}
+  
+      <style>
+        .tabla-contenedor {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   <h2 style="color:#4A90E2"> Resumen</h2>  
+ 
+   <img 
+    src="{{ url_for('static', filename='IMG-20250825-WA0040.jpg') }}" 
+    alt="Resumen" 
+    style="max-width: 60%; height: auto;">
+
+  
+  <br>
+  <br>
+  
+   <h2 style="color:#4A90E2"> Datos de Estudio de los Productos</h2>
+   <p style="text-align: justify; color: #1F2937"> Realizamos la recopilación de bases de datos del Ministerio de Educación
+     y el SPADIES. </p>
+   <p style="text-align: justify;color: #1F2937">Donde encontramos estadisticas actualizadas sobre la Deserción escolar, en la 
+      <span class = "dpto"> UdeA</span>.</p>
+     <p style="text-align: justify;color: #1F2937">La base de datos contiene información  entre el 2010 a 2022, siendo de nuestro interes la deserción universitaria.</p>
+    
+    <p span style="font-size: 12px;text-align: justify;">Fuente: https://www.mineducacion.gov.co/sistemasinfo/spadies/</p>
+
+</body>
+
+<button onclick="location.href='/'">Volver al inicio</button>
+    
+{% endblock %}
+
