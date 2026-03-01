@@ -1,0 +1,167 @@
+
+<body>
+    <header style="background-color: #FFFFFF;"> 
+</body>
+
+{% extends "Base.html" %}
+{% block content %}
+
+<h1 style="text-align: center;color :  #50E3C2">Aqui encontrarás nuestro tablero de resultados</h1>
+<h2 style="text-align: center; color: #1F2937">Dashboard</h2>
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px;">
+
+  
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img 
+      src="{{ url_for('static', filename='grafico_1_promedio_por_año.png') }}" 
+      alt="Gráfico promedio por año"
+      style="max-width: 100%; height: auto;"
+    >
+    <p style="margin-top: 10px; font-size: 14px; line-height: 1.5;">
+      Esta gráfica muestra el comportamiento de la deserción estudiantil 
+      en los años de interés (2010–2022), donde se puede observar una 
+      mejor tasa de deserción para el año <strong>2012</strong>. Por el contrario, 
+      en el <strong>2020</strong> se presentó mayor deserción.
+    </p>
+  </div>
+
+  
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img 
+      src="{{ url_for('static', filename='grafico_3_desercion_por_año.png') }}" 
+      alt="Gráfico deserción por año"
+      style="max-width: 100%; height: auto;"
+    >
+  </div>
+
+  </div>
+
+
+
+<style>
+  .dashboard-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .grafico {
+    flex: 1 1 350px;
+    text-align: center;
+  }
+
+  .grafico img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .sedes-texto {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sedes-texto p {
+    margin: 4px 0;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard-section {
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .sedes-texto {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+</style>
+
+<div class="dashboard-section">
+
+  <!-- Primer gráfico con texto debajo -->
+  <div class="grafico">
+    <img 
+      src="{{ url_for('static', filename='grafico_2_promedio_por_sede.png') }}" 
+      alt="Gráfico promedio por sede"
+    >
+    <div class="sedes-texto">
+      <p><strong>Sede Norte:</strong> Yarumal</p>
+      <p><strong>Sede principal Medellín:</strong> Ciudad universitaria</p>
+      <p><strong>Sede Urabá:</strong> Turbo, Apartadó, Carepa</p>
+      <p><strong>Sede Oriente:</strong> Carmen de Viboral</p>
+      <p><strong>Sede Occidente:</strong> Santa Fe de Antioquia</p>
+      <p><strong>Sede Bajo Cauca:</strong> Caucasia</p>
+      <p><strong>Sede Magdalena Medio:</strong> Puerto Berrío</p>
+    </div>
+  </div>
+
+  
+  <div class="grafico">
+    <img 
+      src="{{ url_for('static', filename='grafico_4_boxplot_por_sede.png') }}" 
+      alt="Gráfico boxplot por sede"
+    >
+  </div>
+
+</div>
+
+
+<div style="display: flex; justify-content: center; gap: 40px; margin-top: 40px;">
+  <img 
+    src="{{ url_for('static', filename='grafico_6_heatmap_top5_areas.png') }}" 
+    alt="Gráfico metodología" 
+    style="max-width: 45%; height: auto;"
+  >
+
+  <img 
+    src="{{ url_for('static', filename='grafico_3_top5_areas.png') }}" 
+    alt="Gráfico áreas" 
+    style="max-width: 45%; height: auto;"
+     
+  >
+
+  
+</div>
+
+
+<img 
+    src="{{ url_for('static', filename='grafico_4_evolucion_metodologia.png') }}" 
+    alt="Gráfico metodología" 
+    style="max-width: 45%; height: auto;"
+  >
+<p style="margin-top: 20px; font-size: 14px; line-height: 1.5;">
+  La base de datos incluye las diferentes modalidades de estudio. Encontramos que los estudiantes 
+  en la modalidad virtual o distancia tuvieron una tasa significativamente mayor de decersión. 
+  Las carreras relacionadas con Artes tuvieron menores tasas.
+</p>
+
+<div style="display: flex; justify-content: center; gap: 40px; margin-top: 40px;">
+  <img 
+    src="{{ url_for('static', filename='grafico_1_evolucion_por_sexo.png') }}" 
+    alt="Gráfico evolución por sexo" 
+    style="max-width: 45%; height: auto;"
+  >
+
+  <img 
+    src="{{ url_for('static', filename='grafico_5_boxplot_sexo.png') }}" 
+    alt="Gráfico boxplot por sexo" 
+    style="max-width: 45%; height: auto;"
+  >
+</div>
+
+<button onclick="location.href='/'">Volver al inicio</button>
+
+{% endblock %}

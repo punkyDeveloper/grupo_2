@@ -1,0 +1,9 @@
+[
+  {"producto": "Laptop", "precio": 1200, "vendidos": 150},
+  {"producto": "Mouse", "precio": 25, "vendidos": 430},
+  {"producto": "Teclado", "precio": 45, "vendidos": 380},
+  {"producto": "Monitor", "precio": 200, "vendidos": 290},
+  {"producto": "Tablet", "precio": 400, "vendidos": 240},
+  {"producto": "Auriculares", "precio": 60, "vendidos": 320},
+  {"producto": "Webcam", "precio": 80, "vendidos": 120}
+]
